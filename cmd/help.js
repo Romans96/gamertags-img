@@ -12,7 +12,7 @@ module.exports = {
             "\n:small_blue_diamond: **pl**: Pirata Leggendario: 1 se sei Legend, 0 se non lo sei. (Obbligatorio)",
             "\n:small_blue_diamond: **lvl**: Rispettivamente i vostri livelli delle 3 fazioni (1-50) e Athena (1-10). (Obbligatorio)",
             "\n:small_blue_diamond: **pvp/pve**: Se preferite fare PVP (1), PVE (2), o entrambi (3). (Obbligatorio)",
-            "\n:small_blue_diamond: **Link**: Link DIRETTO ad un'immagine. **!!L'immagine deve avere un rapporto di: 3:2 !!** (Facoltativo)", //reg[6]
+            "\n:small_blue_diamond: **Link**: Link DIRETTO ad un'immagine. :warning: **!!L'immagine deve avere un rapporto di: 3:2 !!** :warning:  (Facoltativo)", //reg[6]
             
             "\n\n*ESEMPIO 1*: .tagadd Pippo, 2, 1, 45, 43, 37, 6, 3",
             "\n Ovvero la mia scheda avrà: Gamertag: Pippo, Missione Preferita: Anime (2), Pirata Leggendario: SI (1)",
