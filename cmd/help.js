@@ -92,7 +92,7 @@ module.exports = {
 
         try {
             msg.channel.send(msgEmbed);
-            console.log('HELP: Help message sent')
+            console.log('HELP: Help message sent (TAGHELP)')
         }
         catch (e) {
             console.log("HELP: "+e.message);
