@@ -1,0 +1,21 @@
+{
+  "name": "gamertags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "jimp": "^0.5.6",
+    "mysql": "^2.16.0",
+    "pg": "^7.6.1",
+    "sequelize": "^4.41.1",
+    "sqlite3": "^4.0.3"
+  }
+}
