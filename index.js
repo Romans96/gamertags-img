@@ -45,7 +45,7 @@ const GmTags = sequelize.define('tags', {
     gamertag: {
         type: Sequelize.STRING,
 	},
-	miss_pref: {
+    miss_pref: {
         type: Sequelize.STRING,
 	},
 	legend: {
@@ -292,4 +292,4 @@ client.on("message", async msg => {
 	
 });
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
