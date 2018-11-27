@@ -18,19 +18,11 @@ const tag_help = require('./cmd/help.js');
 var pg = require('pg')
 pg.defaults.ssl = true;
 
-//1 alpha
 const sequelize = new Sequelize(process.env.DATABASE_URL);
 
-//1 alpha
-/*const sequelize = new Sequelize('database', 'user', 'password', {
-    host: 'localhost',
-    dialect: 'sqlite',
-    logging: false,
-    operatorsAliases: false,
-    storage: './database.sqlite',
-});*/
 
-//2 beta CREATE TABLE tags ( nome VARCHAR(255) , dis_id INT , gamertag VARCHAR(255) )
+
+//CREATE TABLE tags ( nome VARCHAR(255) , dis_id INT , gamertag VARCHAR(255) )
 const GmTags = sequelize.define('tags', {
     nome: {
         type: Sequelize.STRING,
@@ -81,7 +73,7 @@ client.once("ready", () => {
   
 });
 
-
+client.on('error',console.error); //handle error at startup
 client.on("message", async msg => {
 	const args = msg.content.slice(config.prefix.length).split(/ +/);
 	const command = args.shift().toLowerCase();
