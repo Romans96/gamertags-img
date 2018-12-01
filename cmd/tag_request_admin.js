@@ -29,7 +29,7 @@ module.exports = {
 					.addField('Livella Mercante', tag.get('lvl_mercante'), true)
 					.addField('Livella Athena', tag.get('lvl_athena'), true)
 					.addField('PvP, PvE, PvP e PvE', tag.get('pvp_e'), true)
-					.addField("Link", tag.get('link') ,true)
+					.addField("Link", tag.get('link_img') ,true)
                     .addBlankField()
 					.setTimestamp();
 		
